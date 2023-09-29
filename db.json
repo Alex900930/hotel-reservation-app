@@ -1,0 +1,34 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Hotel Ritz",
+      "description": "El Hotel Ritz es un lujoso hotel de cinco estrellas ubicado en el corazón de la ciudad. Con una arquitectura elegante y una decoración exquisita, ofrece una experiencia única para aquellos que buscan el máximo confort y lujo. Sus amplias habitaciones ofrecen vistas impresionantes de la ciudad, y sus restaurantes galardonados sirven una variedad de platos gourmet. Disfruta de un servicio de clase mundial y relájate en su spa de primera categoría.",
+      "img": "/img/hotel1.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Hotel Estrella",
+      "description": "El Hotel Estrella es un encantador hotel boutique con un ambiente íntimo y acogedor. Ubicado en un edificio histórico restaurado, combina el encanto del viejo mundo con comodidades modernas. Sus habitaciones únicas están decoradas con un estilo elegante y ofrecen un refugio tranquilo en el corazón de la ciudad. El hotel cuenta con un restaurante de autor que sirve platos de la cocina local e internacional.",
+      "img": "/img/hotel2.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Hotel Playa",
+      "description": "El Hotel Playa es un paraíso junto al mar, perfecto para los amantes de la playa y el sol. Con una ubicación privilegiada en la costa, ofrece acceso directo a una playa de arena blanca y aguas cristalinas. Las habitaciones son luminosas y espaciosas, muchas con vistas panorámicas al mar. Disfruta de deportes acuáticos, relájate en la piscina o saborea deliciosos platos en el restaurante frente al mar.",
+      "img": "/img/hotel3.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Hotel Montaña",
+      "description": "El Hotel Montaña es un refugio en medio de la naturaleza. Situado en las montañas, es el destino perfecto para los amantes del senderismo y la aventura al aire libre. Las habitaciones cuentan con balcones privados con vistas panorámicas a los picos de las montañas y a los bosques circundantes. Explora rutas de senderismo, realiza excursiones guiadas o simplemente relájate en el acogedor entorno del hotel.",
+      "img": "/img/hotel4.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Hotel Centro",
+      "description": "El Hotel Centro es la elección ideal para aquellos que desean estar en el corazón de la ciudad. Ubicado en una ubicación céntrica, este hotel ofrece comodidad y accesibilidad a los principales puntos de interés. Las habitaciones son modernas y elegantes, y el hotel cuenta con un restaurante que sirve una variedad de platos internacionales. Explora la ciudad durante el día y regresa a un ambiente acogedor por la noche.",
+      "img": "/img/hotel5.jpeg"
+    }
+  ]
+}
