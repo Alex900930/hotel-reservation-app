@@ -1,20 +1,23 @@
 import {useQuery} from "@tanstack/react-query";
 import {useRoute} from "wouter";
 import BookingForm from "./BookingForm.jsx";
-
+import hotelsData from '../../db.json';
 import {Card, CardActions, CardMedia, Button, CardContent, Stack, Typography} from "@mui/material";
 
-const fetchHotel = async (id) => {
+/*const fetchHotel = async (id) => {
   const res = await fetch(`http://localhost:3001/hotels/${id}`);
   if(!res.ok){
     throw new Error("Network response was not ok");
   }
   return res.json();
-}
+}*/
 
 function HotelDetails(){
  const [match, params] = useRoute("/hotel/:id");
- const {
+
+  const hotel = hotelsData.hotels.find(h => h.id === Number(params.id));
+
+ /*const {
    data:hotel,
    isLoading,
    error,
@@ -29,7 +32,7 @@ function HotelDetails(){
 
   if(error){
     return <div>Error fetching Hotels! {error.message}</div>
-  }
+  }*/
 
   return (
     <Card sx={{maxWidth: 345, backgroundColor: "#e8e8e8"}}>

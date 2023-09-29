@@ -2,16 +2,18 @@ import {useQuery} from "@tanstack/react-query";
 import {Card, CardActions, CardMedia, Button, CardContent, Stack, Typography} from "@mui/material";
 import {Link} from "wouter";
 
-const fetchHoteles = async () => {
+import hotelsData from '../../db.json';
+
+/*const fetchHoteles = async () => {
   const res = await fetch("http://localhost:3001/hotels");
   if(!res.ok){
     throw new Error("Network response was not OK");
   }
   return res.json();
-}
+}*/
 
 function HotelList(){
-  const {
+  /*const {
     data: hotels,
     isLoading,
     error,
@@ -27,7 +29,8 @@ function HotelList(){
   if(error){
     return <div>Error fetching Hotels! {error.message}</div>
   }
-
+*/
+const hotels = hotelsData.hotels;
  return (
    <>
      <Typography variant="h4" component="h2">
